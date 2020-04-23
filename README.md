@@ -83,8 +83,8 @@ The transaction object exists of specific fields that are either user-defined ar
 
 | Field | Data type | Description | Example | User-Defined | Limitations |
 |---|---|---|---|---|---|
-| amount* |int | The amount of the transaction in cents (e.g. 2000 = 20.00 | 2000 | Yes | Minimum is 100 cents in any local currency |
-| currency* |string | The amount of the transaction in cents (e.g. 2000 = 20.00 | 2000 | Yes | Limited to the currencies available for the merchant |
+| amount* |int | The amount of the transaction in cents (e.g. 2000 = 20.00) | 2000 | Yes | Minimum is 100 cents in any local currency |
+| currency* |string | The three-letter [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) currency code | MVR | Yes | Limited to the currencies available for the merchant |
 | signature* | string | A checksum for the transaction | mMBR0TXWHvuno/8su3SKMg==  | Yes | According to specification |
 | deviceId* | string | The client_id of the application | 123456789  | Yes | Must be the app id for the specified API Key |
 | appVersion* | string | A custom version string from your application | 123456789  | Yes | Must be the app id for the specified API Key |
