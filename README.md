@@ -235,7 +235,8 @@ If you're looking to use this API in a specific stack or framework you currently
 
 | Framework                  | Package                                                        |
 | ---------------------------|----------------------------------------------------------------| 
-| PHP7                       | [https://github.com/bankofmaldives/bml-connect-php](https://github.com/bankofmaldives/bml-connect-php)                     |
+| PHP7                       | [https://github.com/bankofmaldives/bml-connect-php](https://github.com/bankofmaldives/bml-connect-php)     
+| Ruby                       | [https://github.com/oxiqa/bml-connect-ruby](https://github.com/oxiqa/bml-connect-ruby)
 | Other                      | Build one and get featured here!                                |
 
 ## About
